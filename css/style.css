@@ -21,6 +21,7 @@ header{
 main{
     background-color: aqua;
     flex-grow: 1;
+    display: flex;
 }
 
 footer{
@@ -31,8 +32,9 @@ footer{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    height: 50rem;
-    width: 50rem;
+    height: 31.25rem;
+    width: 31.25rem;
+    margin: auto;
 }
 
 .board-number{
