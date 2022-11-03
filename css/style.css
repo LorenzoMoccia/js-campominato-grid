@@ -15,13 +15,28 @@ body{
 
 
 header{
-    height: 100px;
+    padding: 1rem;
 }
 
 main{
     background-color: aqua;
+    flex-grow: 1;
 }
 
 footer{
-    height: 100px;
+    padding: 1rem;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 50rem;
+    width: 50rem;
+}
+
+.board-number{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
 }
