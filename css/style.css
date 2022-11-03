@@ -42,3 +42,7 @@ footer{
     height: calc(100% / 10);
     border: 1px solid black;
 }
+
+.cell-color{
+    background-color: lightblue;
+}
